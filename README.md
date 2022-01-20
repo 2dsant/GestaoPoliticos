@@ -41,7 +41,7 @@ Cada aplicação irá rodar em uma porta diferente, porém em *localhost:*
 
 
 ## 📃UML
-![Logo](https://git.gft.com/ddds/projetoapi/-/raw/master/imgs/Politicos.png)
+![Logo](https://github.com/2dsant/GestaoPoliticos/blob/main/imgs/Politicos.png)
 
 ## 📰 Documentação
 A documentação da aplicação foi desenvolvida através do Swagger, dessa forma assim que se iniciar a aplicação
