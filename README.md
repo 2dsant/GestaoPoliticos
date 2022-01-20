@@ -1,6 +1,3 @@
-![Logo](https://git.gft.com/ddds/projetoapi/-/raw/master/imgs/Logo_GFT_506x160px.png)
-
-
 ## 🚀 Projeto Api - Gestão de Políticos
 Api desenvolvida durante o treinamento starter para o desafio de conteúdo de api rest. Se trata de
 duas apis, onde uma possui acesso admin(ProjetoApi) e é possivel realizar o crud completo dentro da aplicação
@@ -27,6 +24,32 @@ um usuário comum.
 |---------|------|
 | admin@gft.com | Gft2021 
 | usuario@gft.com | Gft2021 
+
+
+## Rodar Aplicação
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/2dsant/GestaoPoliticos.git
+```
+
+Abra o diretório
+
+```bash
+  cd GestaoPoliticos
+```
+
+Configurar o arquivo appsetting.json de acordo com as configurações do seu banco mysql.
+No caso a minha configuração é essa:
+```bash
+    "DefaultConnection": "server=localhost;port=3307;database=gestaopoliticos;uid=root;password=root"
+```
+
+Startar a aplicação
+```bash
+  dotnet watch run
+```
 
 ## 🌍 Conexão
 As duas aplicações são distintas, então é necessário que para que funcione corretamente é necessário
